@@ -97,18 +97,21 @@
         "value": "x64",
         "strategy": "external"
       },
+      "toolset": {
+        "value": "host=x64",
+        "strategy": "external"
+      },
       "cacheVariables": {
         "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
         "CMAKE_BUILD_TYPE": "Debug",
         "CMAKE_SYSTEM_NAME": "Windows",
-        "CMAKE_SYSTEM_PROCESSOR": "AMD64",
-        "CMAKE_C_COMPILER": "cl",
-        "CMAKE_CXX_COMPILER": "cl"
+        "CMAKE_C_COMPILER": "cl.exe",
+        "CMAKE_CXX_COMPILER": "cl.exe",
+        "CARES_STATIC": "ON",
+        "CARES_INSTALL": "ON"
       },
       "environment": {
-        "CTEST_OUTPUT_ON_FAILURE": "True",
-        "CARES_STATIC": "True",
-        "CARES_INSTALL": "True"
+        "CTEST_OUTPUT_ON_FAILURE": "True"
       }
     },
     {
@@ -121,18 +124,21 @@
         "value": "x64",
         "strategy": "external"
       },
+      "toolset": {
+        "value": "host=x64",
+        "strategy": "external"
+      },
       "cacheVariables": {
         "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
         "CMAKE_BUILD_TYPE": "Release",
         "CMAKE_SYSTEM_NAME": "Windows",
-        "CMAKE_SYSTEM_PROCESSOR": "AMD64",
-        "CMAKE_C_COMPILER": "cl",
-        "CMAKE_CXX_COMPILER": "cl"
+        "CMAKE_C_COMPILER": "cl.exe",
+        "CMAKE_CXX_COMPILER": "cl.exe",
+        "CARES_STATIC": "ON",
+        "CARES_INSTALL": "ON"
       },
       "environment": {
-        "CTEST_OUTPUT_ON_FAILURE": "True",
-        "CARES_STATIC": "True",
-        "CARES_INSTALL": "True"
+        "CTEST_OUTPUT_ON_FAILURE": "True"
       }
     }
   ]
