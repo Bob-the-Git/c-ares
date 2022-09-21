@@ -88,8 +88,8 @@
       }
     },
     {
-      "name": "Debug-Windows-AMD64",
-      "displayName": "Debug-Windows-AMD64",
+      "name": "Debug-Windows-x64",
+      "displayName": "Debug-Windows-x64",
       "description": "",
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/out/build/${presetName}",
@@ -115,8 +115,8 @@
       }
     },
     {
-      "name": "Release-Windows-AMD64",
-      "displayName": "Release-Windows-AMD64",
+      "name": "Release-Windows-x64",
+      "displayName": "Release-Windows-x64",
       "description": "",
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/out/build/${presetName}",
